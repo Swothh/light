@@ -127,7 +127,7 @@ export default function Footer() {
                                 </li>
                                 <li className="my-1">
                                     <Link href="/discord">
-                                        Destel Sunucusu
+                                        Destek Sunucusu
                                     </Link>
                                 </li>
                             </ul>
