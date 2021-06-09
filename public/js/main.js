@@ -1,0 +1,1 @@
+window.logo = 'https://discord.com/assets/145dc557845548a36a82337912ca3ac5.svg';

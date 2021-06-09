@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-1: #1d1e22;
+    --dark-2: #212226;
+    --dark-3: #242529;
+    --blurple: #5862F2;
+    --green: #57F287;
+    --yellow: #FEE75C;
+    --fuchsia: #EB459E;
+    --red: #ED4245;
+    --white: #fff;
+    --gray: #23272A;
+    --blue: #2a3979;
+}
+
+@layer components {
+    .bg-dark-1 { background-color: var(--dark-1); }
+    .bg-dark-2 { background-color: var(--dark-2); }
+    .bg-dark-3 { background-color: var(--dark-3); }
+    .bg-blurple { background-color: var(--blurple); }
+    .bg-green { background-color: var(--green); }
+    .bg-yellow { background-color: var(--yellow); }
+    .bg-fuchsia { background-color: var(--fuchsia); }
+    .bg-red { background-color: var(--red); }
+    .bg-white { background-color: var(--white); }
+    .bg-gray { background-color: var(--gray); }
+    .bg-blue { background-color: var(--blue); }
+
+    .text-dark-1 { color: var(--dark-1); }
+    .text-dark-2 { color: var(--dark-2); }
+    .text-dark-3 { color: var(--dark-3); }
+    .text-blurple { color: var(--blurple); }
+    .text-green { color: var(--green); }
+    .text-yellow { color: var(--yellow); }
+    .text-fuchsia { color: var(--fuchsia); }
+    .text-red { color: var(--red); }
+    .text-white { color: var(--white); }
+    .text-gray { color: var(--gray); }
+    .text-blue { color: var(--blue); }
+
+    .z-60 {
+        z-index: 60;
+    }
+
+    main#index {
+        min-height: calc(100vh - 448px);
+    }
+
+    main.h-content {
+        min-height: calc(100vh - 448px);
+    }
+
+    main#maintenance, main#blacklist {
+        height: 100vh;
+    }
+
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background-color: var(--dark-3);
+    }
+
+    ::selection {
+        background-color: var(--blurple);
+        color: #fff;
+    }
+
+    .user-menu li {
+        background-color: rgba(0, 0, 0, .05);
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .user-menu li a {
+        width: 100%;
+    }
+}
