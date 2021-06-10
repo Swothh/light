@@ -111,7 +111,7 @@ export default function Footer() {
                             <h3 className="font-bold text-xl text-white">Oy Bağlantıları</h3>
                             <ul className="mt-2 text-gray-100 opacity-75">
                                 <li className="my-1">
-                                    <Link rel="nofollow" href="https://vcodes.xyz/bot/789918433495875584/vote">
+                                    <Link href="https://vcodes.xyz/bot/789918433495875584/vote">
                                         vcodes.xyz
                                     </Link>
                                 </li>
