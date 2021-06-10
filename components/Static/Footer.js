@@ -54,7 +54,7 @@ export default function Footer() {
                                 </Dialog.Title>
                                 <div className="mt-2">
                                 <select>
-                                    <option>selam</option>
+                                    <option>Yakında!</option>
                                 </select>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@ export default function Footer() {
                             <h3 className="font-bold text-xl text-white">Oy Bağlantıları</h3>
                             <ul className="mt-2 text-gray-100 opacity-75">
                                 <li className="my-1">
-                                    <Link href="https://vcodes.xyz/bot/789918433495875584/vote">
+                                    <Link rel="nofollow" href="https://vcodes.xyz/bot/789918433495875584/vote">
                                         vcodes.xyz
                                     </Link>
                                 </li>
@@ -148,7 +148,7 @@ export default function Footer() {
                             <h6 className="text-gray-100 opacity-75 text-sm">© 2021 {settings.brand.name} | Tüm hakları saklıdır.</h6>
                         </div>
                         <div className="w-1/2 flex items-center justify-end">
-                            <a href="//www.dmca.com/Protection/Status.aspx?ID=619a08e7-c821-45a9-bc8f-56e9e2957b1c" title="DMCA.com Protection Status" className="dmca-badge"> 
+                            <a rel="nofollow" href="//www.dmca.com/Protection/Status.aspx?ID=619a08e7-c821-45a9-bc8f-56e9e2957b1c" title="DMCA.com Protection Status" className="dmca-badge"> 
                                 <img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-02.png?ID=619a08e7-c821-45a9-bc8f-56e9e2957b1c"  alt="DMCA.com Protection Status" />
                             </a>
                         </div>
