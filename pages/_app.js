@@ -34,23 +34,23 @@ export default function LightPartner({ Component, pageProps }) {
 				<Meta />
 			</Head>
 			{blacklist == true ? (
-				<main id="blacklist">
+				<main id="blacklist" lang="tr">
 					<Blacklist />
 				</main>
 			) : (config && config.maintenance == true && (user ? !config.developers.map(dev => dev.id).includes(user.id) : true) ? (
-				<main id="maintenance">
+				<main id="maintenance" lang="tr">
 					<Maintenance />
 				</main>
 			) : indexRoutes.includes(router.pathname) ? (
 				<>
 					<IndexHeader />
-					<main id="index">
+					<main id="index" lang="tr">
 						<Component {...pageProps} />
 					</main>
 					<IndexFooter />
 				</>
 			) : (
-				<main>
+				<main lang="tr">
 					<Component {...pageProps} />
 				</main>
 			))}
