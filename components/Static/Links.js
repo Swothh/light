@@ -4,6 +4,7 @@ export default function Links() {
                   <link rel="stylesheet" href="/css/nprogress.css" />
                   <link href="https://pro.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet" />
                   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+		  <script data-ad-client="ca-pub-3576982641746981" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
                   <link rel="preconnect" href="https://fonts.gstatic.com" />
                   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
                   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css" />
