@@ -5,7 +5,7 @@ export default function Meta() {
 		<>
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-            <meta name="description" content="Best Discord Partner Bot" />
+            <meta name="description" content={settings.brand.desc} />
             <link rel="icon" href={settings.brand.favicon} type="image/x-icon" />
             <meta name='dmca-site-verification' content='YkZMenZRRlJBNWtvOC9QVEJUY0pWQTV3Mi9NdXJxV3ZabEZhNzMyTjZkVT01' />
 
