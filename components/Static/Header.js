@@ -178,7 +178,7 @@ export default function Header() {
 							<div className="flex items-center justify-between">
 								<div>
 								<img
-									className="h-8 filter invert w-auto rounded-lg" src={settings.brand.logo} alt={settings.brand.name} />
+									className="h-8 w-auto rounded-lg" src={settings.brand.logo} alt={settings.brand.name} />
 								</div>
 								<div className="-mr-2">
 								<Popover.Button className="bg-gray-2 rounded-md p-2 inline-flex items-center justify-center text-gray-100 hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-600">
