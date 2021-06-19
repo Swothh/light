@@ -3,7 +3,9 @@ import { Dialog, Transition } from '@headlessui/react'
 import settings from '../../settings.json';
 import Link from 'next/link';
 
-const languages = [
+
+export default function Footer() {
+    const languages = [
     { code : 'ab', name : 'Abkhazian' },
     { code : 'aa', name : 'Afar' },
     { code : 'af', name : 'Afrikaans' },
@@ -189,8 +191,7 @@ const languages = [
     { code : 'za', name : 'Zhuang, Chuang' },
     { code : 'zu', name : 'Zulu' }
 ];
-
-export default function Footer() {
+    
     const [ open, setOpen ] = useState(false);
     const cancelButtonRef = useRef(null);
 
