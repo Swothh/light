@@ -241,9 +241,9 @@ export default function Footer() {
                                 </Dialog.Title>
                                 <div className="mt-2">
                                 <select>
-                                    {languages.map(x => (}
-                                    <option>{x.name}</option>
-                                    { )) }
+                                    {languages.map((lang, key) => {
+                                      <option key={key}>{lang.name}</option>
+                                    })}
                                 </select>
                                 </div>
                             </div>
