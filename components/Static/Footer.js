@@ -242,9 +242,7 @@ export default function Footer() {
                                 </Dialog.Title>
                                 <div className="mt-2">
                                 <select>
-                                    {languages.forEach((lang, key) => (
-                                      <option key={key}>{lang.name}</option>
-                                    ))}
+                                    {languages.map((lang, key) => <option key={key}>{lang.name}</option>)}
                                 </select>
                                 </div>
                             </div>
