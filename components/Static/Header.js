@@ -106,7 +106,7 @@ export default function Header() {
 							<Link href="/">
 								<a>
 									<span className="sr-only">{settings.brand.name}</span>
-									<img className="h-8 filter invert w-auto rounded-lg sm:h-10" src={settings.brand.logo} alt={settings.brand.name} />
+									<img className="h-8 w-auto rounded-lg sm:h-10" src={settings.brand.logo} alt={settings.brand.name} />
 								</a>
 							</Link>
 						</div>
