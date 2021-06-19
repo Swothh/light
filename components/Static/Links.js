@@ -2,6 +2,7 @@ export default function Links() {
 	return (
 		<>
                   <link rel="stylesheet" href="/css/nprogress.css" />
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
                   <link href="https://pro.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet" />
                   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 		  <script data-ad-client="ca-pub-3576982641746981" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
