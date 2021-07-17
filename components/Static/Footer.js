@@ -236,9 +236,7 @@ export default function Footer() {
                             <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-600 sm:mx-0 sm:h-10 sm:w-10">
                                 <i className="fas text-white fa-language"></i>
                             </div>
-                        <style dangerouslySetInnerHTML={{__html: "a.gflag{vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png)}a.gflag img{border:0}a.gflag:hover{background-image:url(//gtranslate.net/flags/16a.png)}#goog-gt-tt{display:none!important}.goog-te-banner-frame{display:none!important}.goog-te-menu-value:hover{text-decoration:none!important}.goog-tooltip{display:none!important}.goog-tooltip:hover{display:none!important}.goog-text-highlight{background-color:transparent!important;border:none!important;box-shadow:none!important}body{top:0!important}#google_translate_element2{display:none!important}.tooltip{position:relative;display:inline-block;border-bottom:1px dotted #000}" }} />
-                                <div id="google_translate_element2" />
-                              </div>
+
                             <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                                 <Dialog.Title as="h3" className="text-lg leading-6 font-bold text-gray-100">
                                 Dil Değiştir
